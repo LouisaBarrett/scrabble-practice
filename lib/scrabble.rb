@@ -10,6 +10,8 @@ class Scrabble
           "Y"=>4, "Z"=>10
         }
 
-    letters[word.upcase]
+    word.upcase.chars.inject(0) do |sum, w|
+      sum += letters[w]
+    end
   end
 end
