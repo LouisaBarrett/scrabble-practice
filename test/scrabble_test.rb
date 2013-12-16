@@ -11,6 +11,7 @@ class ScrabbleTest < Minitest::Test
 
   def test_it_can_score_a_word
      assert_equal 8, Scrabble.score("word")
+     assert_equal 5, Scrabble.score("hi")
   end
-  
+
 end
