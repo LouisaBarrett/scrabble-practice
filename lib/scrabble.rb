@@ -11,6 +11,5 @@ class Scrabble
         }
 
     letters[word.upcase]
-    
   end
 end
